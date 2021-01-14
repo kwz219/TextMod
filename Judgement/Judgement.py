@@ -9,5 +9,5 @@ class Judger(object):
 class ALL_PASS_Judger(Judger):
     def __init__(self):
         super(ALL_PASS_Judger, self).__init__()
-    def If_pass(self,sentence):
+    def If_pass(self,sentences):
         return True
